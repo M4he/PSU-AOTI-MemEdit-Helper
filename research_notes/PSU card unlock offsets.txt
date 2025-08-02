@@ -1,0 +1,44 @@
+Name; Offset from character memory struct
+Laia Martinez; +1CC8
+Lou; +1C80
+Fulyen Curtz; +1CA4
+Maya Shidow; +1C78
+Lucaim Nav; +1C74
+Hyuga Ryght; +1C68
+Leogini Berafort; +1C70
+Alfort Tylor; +1C98
+Tonnio Rhima; +1C7C
+Ethan Waber (Rogue); +1CE8
+Partner Machine; +1D0C
+Karen Erra; +1C6C
+Mirei Mikuna; +1C84
+No Vol; +1C8C
+Hiru Vol; +1C88
+Do Vol; +1C90
+Hal; +1CC0
+Renvolt Magashi; +1CA8
+Remlia Norphe; +1CB0
+Liina Sukaya; +1C94
+Obel Dallgun; +1C9C
+Orson Waber; +1CDC
+Karen (Maiden); +1CCC
+Howzer; +1CFC
+Bruce Boyde; +1CE4
+Lumia Waber; +1D04
+Laia Martinez (President); +1D08
+Rutsu; +1D00
+Ethan Waber (normal outfit); +1CA0
+[broken] Ethan Waber; +1C64
+[broken] Clamp Maniel; +1CB4
+[broken] Kanal Tomrain; +1CB8
+[broken] Lumia Waber; +1CAC
+[broken] Mina; +1CBC
+[broken] Fulyen Curtz; +1CC4
+[broken] Fulyen Curtz; +1CE0
+[broken] Vivian; +1CEC
+[broken] Helga Neumann; +1CF0
+[broken] Hakana Kutanami; +1CF4
+[broken] Liche Baratse; +1CF8
+[broken] Mirei Mikuna; +1CD0
+[broken] Obel; +1CD4
+[broken] Maira Klein; +1CD8

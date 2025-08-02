@@ -1,0 +1,30 @@
+Based on the address where the character name starts, the following offsets carry appearance values:
+
++0x48 (72) = outfit/model part 1 (4 bytes)
++0x4C (76) = outfit/model part 2 (4 bytes)
++0x50 (80) = outfit/model part 3 (4 bytes)
++0x54 (84) = outfit/model part 4 (4 bytes)
++0x58 (88) = outfit/model part 5 (4 bytes)
++0x5C (92) = outfit/model part 6 (4 bytes)
+
+---
+
++0x43 (67) = Voice (1 Byte) [First]
++0x44 (68) = Voice Pitch (1 Byte)
++0x55 (85) = Ears
++0x58 (88) = Face
++0x5D (93) = Hairstyle
++0x68 (104) = Eyes
++0x69 (105) = Body Suit
++0x80 (128) = Skin Color (2 Bytes)
++0x88 (136) = Hair Color Brightness (4 Bytes)
++0x8C (140) = Hair Color Hue (4 Bytes)
++0x90 (144) = Height (4 Bytes)
++0x94 (148) = Body Mass X-axis (4 Bytes)
++0x98 (152) = Body Mass Y-axis (4 Bytes)
++0x9C (156) = Face Proportions X-axis (4 Bytes)
++0xA0 (160) = Face Proportions Y-axis (4 Bytes) [Last]
+
+Non-appearance related:
+
++0xB8 (184) = Meseta (4 Bytes)
