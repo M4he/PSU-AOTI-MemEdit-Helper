@@ -34,10 +34,11 @@ It **must be built as 32bit target** otherwise attaching to the game's process w
 
 ## How to build a standalone exe
 
-1. Open Cheat Engine and load the `.CT` file using "File" > "Load". You may deny the script execution when prompted.
-2. Use "File" > "Save as..." to open the "Save file as" dialog.
-3. At the bottom of the "Save file as" dialog change the file type to "Cheat Engine Trainer Standalone (*.EXE)".
-4. In the "Exe Trainer Generator" dialog, select "Target is 32-bit", use the "Change EXE Icon" and use any icon file from your PC (otherwise generation will fail) and press "Generate".
+1. First, download the [AOTI_memory_edit_helper.CT](https://raw.githubusercontent.com/M4he/PSU-AOTI-MemEdit-Helper/main/AOTI_memory_edit_helper.CT) file.
+2. Open Cheat Engine and load the `.CT` file using "File" > "Load". You may deny the script execution when prompted.
+3. Use "File" > "Save as..." to open the "Save file as" dialog.
+4. At the bottom of the "Save file as" dialog change the file type to "Cheat Engine Trainer Standalone (*.EXE)".
+5. In the "Exe Trainer Generator" dialog, select "Target is 32-bit", use the "Change EXE Icon" and use any icon file from your PC (otherwise generation will fail) and press "Generate".
 
 ## Usage instructions
 
@@ -47,7 +48,7 @@ It **must be built as 32bit target** otherwise attaching to the game's process w
 
 Startup:
 
-1. Open up the memory edit helper first. Either by [building the exe](#how-to-build-a-standalone-exe) beforehand and starting it or loading the `.CT` file into Cheat Engine and allowing script execution.
+1. Open up the memory edit helper first. Either by [building the exe](#how-to-build-a-standalone-exe) beforehand and starting it or loading the [AOTI_memory_edit_helper.CT](https://raw.githubusercontent.com/M4he/PSU-AOTI-MemEdit-Helper/main/AOTI_memory_edit_helper.CT) file into Cheat Engine and allowing script execution.
 2. Open up the game. The "Attached to game process:" indicator should turn green.
 
 ### Editing character name or meseta (money)
