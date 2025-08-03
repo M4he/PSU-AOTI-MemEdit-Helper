@@ -1,0 +1,12 @@
+v1.0
+
+- initial version
+- implement partner card unlocking
+- implement character name and meseta editing
+- implement experimental character appearance transfer
+
+v1.1
+
+- increase the limit of character name letters from 12 to 16
+- update help texts in the popup forms for the "?" buttons
+- reflect current version in main window title
