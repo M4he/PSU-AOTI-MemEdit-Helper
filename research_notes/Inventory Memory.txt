@@ -1,0 +1,27 @@
+Relevant item IDs:
+
+11020000 Photon Eraser
+11020100 Photon Reflector
+
+0B013F00 Sonic
+0B014100 Tails
+
+Offset for inventory from the start address of the character name address: 0x258 (600)
+
+The inventory has 60 slots, so the end should be at offset 0x294 (660)
+
+Each inventory entry is 36 bytes:
+
+AA AA AA AA BB BB BB BB CC CC CC CC DD DD DD DD
+EE EE EE EE FF FF FF FF GG GG GG GG HH HH HH HH
+II II II II
+
+4 bytes A = unknown
+4 bytes B = slot memory index (arbitrary starting index)
+4 bytes C = item ID
+4 bytes D = all zeros
+4 bytes E = PP values?
+4 bytes F = ??
+4 bytes G = ??
+4 bytes H = ??
+4 bytes I = ??

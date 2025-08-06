@@ -10,3 +10,12 @@ v1.1
 - increase the limit of character name letters from 12 to 16
 - update help texts in the popup forms for the "?" buttons
 - reflect current version in main window title
+
+v1.2
+
+- added function to replace Photon Eraser and Photon Reflector items in inventory with Sonic and Tails statues for characters imported from base PSU
+- rearranged partner card unlock checkboxes and revamped their initialization
+- renamed some partner card entries to better reflect the respective character
+- rearranged and renamed GUI elements
+- adjusted instructions and help texts
+- cleaned up and overhauled the Lua code

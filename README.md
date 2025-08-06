@@ -15,9 +15,11 @@ Its main functions are:
     - this is normally not offered by the game
 - edit a character's body proportions by transfering another character's
     - makes up for the lack of a corresponding option in the in-game makeover shop which lacks this feature despite offering to change everything else
+- exchange the useless inventory items "Photon Eraser" and "Photon Reflector" on characters imported from base PSU
+    - replaces them with the Sonic and Tails room decoration statues normally received when creating a new non-imported character in AOTI
 
 The tool is a table for Cheat Engine ([cheatengine.org](https://cheatengine.org/)) with forms attached to it and an integrated Lua script to do the heavy lifting.
-It can be exported as a standalone `.exe` from Cheat Engine.
+It can be exported as a standalone `.exe` from Cheat Engine, see [how to build a standalone exe](#how-to-build-a-standalone-exe).
 
 ## Game Compatibility
 
@@ -54,25 +56,40 @@ Startup:
 ### Editing character name or meseta (money)
 
 1. Load your save game (character) and once in-game, click "Start / Refresh".
-2. Then edit character name and/or meseta in the fields below and press "Set" next to them.
+2. Edit character name and/or meseta in the fields below the button and press "Set" next to them.
 3. Trigger a loading screen (e.g. by going through a door) to refresh the values on screen.
 4. Save the game at a save point to make changes permanent.
 
 ### Unlocking partner cards
 
 > **Note:**
-> Please read and follow the procedure for unlocking partner cards very carefully as there is only a very specific time frame where the unlock can be applied when loading a savegame!
+> Changes to partner card unlocks will be directly applied but are reset once entering any loading screen (e.g. going through a door).
+> The game needs to be saved and reloaded directly for the changes to be both visible and permanent!
 
-1. From the title screen select "Continue".
-2. A message "Loaded Game Data for Phantasy Star Universe: AOTI" will appear. Press Enter.
-3. The character list will appear. Select the desired character and press Enter *once*.
-4. A message "Do you want to load this file?" will appear. Select "Yes" and press enter *only once*!
-5. A message "Loaded Game Data for Phantasy Star Universe: AOTI" will appear. **STOP HERE** and switch back to the tool's window.
-6. In the tool's window press "Start / Refresh". Your character's name should appear.
-7. Use the checkboxes in the tool's window to add/remove partner cards as desired.
-8. After choosing the partner cards, switch back to the game and now confirm the on-screen message with Enter. The loading screen will appear.
-9. Once in-game, verify the partner cards in the "Form Party" menu.
-10. Save the game at a save point to make changes permanent.
+1. Start the game in offline story mode and load your character.
+2. Position your character next to a save point.
+3. In the tool's window press "Start / Refresh". Your character's name should appear in the corresponding text filed. If not, redo the procedure!
+4. Use the checkboxes in the tool's window to add/remove partner cards as desired.
+5. After choosing the partner cards, switch back to the game and save the game to any desired save slot.
+6. From the game's system menu use the logout option to return to the title screen and then load the character from the slot you just saved to.
+
+### Exchanging Photon Eraser and Photon Reflector items
+
+This feature of the tool allows you to get rid of the items "Photon Eraser" and "Photon Reflector" on characters imported from base PSU to AOTI using the game's save import function.
+These items permanently take up inventory slots but are of no use in AOTI at all and cannot be sold or stored away.
+The tool can replace both items with the Sonic and Tails room decoration statues that you would normally receive on new non-imported AOTI characters on game start but don't on imported ones.
+In contrast to the Photon tools, those items can also be stored and removed from the inventory.
+
+> **Note:**
+> Changes to the inventory will be directly applied but are reset once entering any loading screen (e.g. going through a door).
+> The game needs to be saved and reloaded directly for the changes to be both visible and permanent!
+
+1. Start the game in offline story mode and load your character.
+2. Position your character next to a save point.
+3. In the tool's window press "Start / Refresh". Your character's name should appear in the corresponding text filed. If not, redo the procedure!
+4. Use the "Replace Photon Eraser and Reflector items" button in the tool's window.
+5. Switch back to the game and save the game to any desired save slot.
+6. From the game's system menu use the logout option to return to the title screen and then load the character from the slot you just saved to.
 
 ### Transferring character appearance
 
@@ -82,7 +99,7 @@ This feature of the tool is experimental and intended to make up for the lack of
 2. Choose the same base type as the character you want to change (CAST, Human, etc.).
 3. Adjust the new character's appearance to what you want.
 4. Complete the character creation and enter the game.
-5. Once in-game, press "Record Values" in the tool window. There is no need to save the game.
+5. Once in-game, press "Record Values" in the tool window. There is no need to save the game with the new character.
 6. Return to the game's title screen and load the target character you want to apply the appearance to.
 7. Once in-game, press "Apply Values" to transfer the recorded appearance to the current character.
 8. Trigger a loading screen (e.g. by going through a door) to refresh the character display on screen.
@@ -94,6 +111,7 @@ Thanks goes to:
 
 - the PSU fan community and authors of the community patch for PSU AOTI offline, making this possible in the first place
 - YouTube users **jie 8**, **cybxrmurdxr** and **GamerTime1226** for their video tutorials on PSU AOTI memory editing
+- the authors of Cheat Engine for providing the tool
 
 ## Disclaimer
 
